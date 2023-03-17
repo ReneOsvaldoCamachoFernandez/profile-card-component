@@ -14,20 +14,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon-32x32.png" />
       </Head>
-      <main className="h-full bg-[#19A2AE] font-Kumbh px-[25px] py-[146px] relative overflow-hidden">
-        <div className="relative z-10">
+      <main className="h-full bg-[#19A2AE] font-Kumbh px-[25px] py-[146px] relative overflow-hidden flex items-center justify-center">
+        <div className="relative z-10 max-w-[350px] max-h-[375px] ">
           <div className="">
             <Image
               src={bgCard}
               alt="bgCardPatern"
-              className="rounded-t-2xl"
+              className="rounded-t-2xl w-full"
             ></Image>
           </div>
           <div className="bg-[#FFFFFF] flex flex-col items-center pb-[28px] pt-[56px]">
-            <h1 className="font-bold text-[18px]">
-              Victor Crest <span className="ml-1 text-[#6A6F81]/50 ">26</span>
+            <h1 className="font-bold text-[18px] mt-[10px]">
+              Victor Crest <span className="ml-1  text-[#6A6F81]/50 ">26</span>
             </h1>
-            <p className="text-[#6A6F81] mt-[10px]">London</p>
+            <p className="text-[#6A6F81] ">London</p>
           </div>
           <div className="bg-[#FFFFFF] flex border-t-2 border-[#969696]/20 justify-evenly rounded-b-2xl p-[18px]">
             <div className="flex flex-col items-center">
@@ -43,7 +43,7 @@ export default function Home() {
               <p className="text-[#6A6F81]">Photos</p>
             </div>
           </div>
-          <div className="absolute top-[81px] left-[115px]">
+          <div className="absolute top-[23.5%] left-[36%]">
             <Image
               src={idCard}
               alt="id card"
@@ -54,12 +54,12 @@ export default function Home() {
         <Image
           src={bgPatternTop}
           alt="bgTop"
-          className="absolute top-[-175px] left-[-175px] z-0"
+          className="absolute  top-[-175px] xl:top-[-475px] left-[-175px] xl:left-[-300px] z-0 "
         ></Image>
         <Image
           src={bgPatternBottom}
           alt="bgPatternBottom"
-          className="absolute bottom-[-150px]  right-[-260px] scale-150 z-0"
+          className="absolute bottom-[-150px] xl:bottom-[-550px] right-[-260px] xl:right-[-325px]  scale-150 xl:scale-100 z-0"
           width="978"
           height="978"
         ></Image>
