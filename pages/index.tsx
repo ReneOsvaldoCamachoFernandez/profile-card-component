@@ -43,7 +43,7 @@ export default function Home() {
               <p className="text-[#6A6F81]">Photos</p>
             </div>
           </div>
-          <div className="absolute top-[23.5%] left-[36%]">
+          <div className="absolute top-[23.5%] left-[36%] xl:top-[24.5%]  xl:left-[36%]">
             <Image
               src={idCard}
               alt="id card"
